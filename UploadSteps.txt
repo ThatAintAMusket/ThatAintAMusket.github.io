@@ -3,3 +3,5 @@ Steps to upload to a server:
 1. Prepare and structure all items in folders.
  
 2. Choose a hosting service
+
+3. Link the files to the internet.
