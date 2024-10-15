@@ -1,0 +1,187 @@
+@charset "utf-8";
+article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+
+/* HTML styles */
+html {
+	background-image: url('I:/School/COMP 2681/Web Assignment/images/f1_pic_white.jpg');
+	background-repeat: repeat;
+	background-size: 600px 400px; /* tiled background */
+	
+}
+	
+
+
+/* hyperlink styles */
+a {
+	color: purple;
+	text-decoration: none;
+
+}
+a:visited { /* colored hyperlinks based on state */
+	color: black;
+}
+a:hover {
+	color: blue;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+
+
+/*header styles */
+h1{
+		text-shadow: red 2px 2px 1px;
+		width: auto;
+		height: auto;
+}
+
+body > header > p{
+		background-color: black;
+	}
+/*paragraph styles */
+	#bio{
+		margin: 20px;
+		padding: 20px;
+		font-family: monospace, serif;
+		font-size: 1em;
+		text-align: center;
+		border-width: 5px;
+		border-style: groove;
+		border-color: red;
+		border-radius: 10px;	
+		background-color: LightGrey;
+		max-width: 90vw;
+		height:auto;
+		
+	}
+	
+	#Otherpage{
+		margin: 20px;
+		padding: 20px;
+		font-family: monospace, serif;
+		font-size: 1em;
+		text-align: center;
+		border-width: 5px;
+		border-style: groove;
+		border-color: red;
+		border-radius: 10px;	
+		background-color: LightGrey;
+		max-width: 90vw;
+		height:auto;
+	}
+	
+	
+/* nav menu styles */
+	nav.horizontal{
+	
+	width: 100%;
+	height:auto;
+	float:left;
+	clear:right;
+	display: grid;
+	outline: none;
+	position: relative;
+	vertical-align: baseline;
+	
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	
+  
+}
+
+   
+/*Page Body Styles */
+body {
+		
+		width: 90vw;
+		min-width: 640px;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		
+		
+	} 
+
+	
+
+/* Image Styles */
+	.logo{	
+		display:grid;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: auto;
+	}
+	
+	.item1 img{
+		width: 100%;
+		height: auto; /* auto to maintain aspect ratio */
+ 		border-width: 5px;
+		border-style: groove;
+		border-color: red;
+		border-radius: 10px;
+	}
+
+/* Horizontal Navigation Style  */
+	nav > ul > li {
+		/*font here*/
+		font-family: monospace, serif;
+		font-style: italic;
+		display: block;
+		float: left;
+		width: 14%;
+		height: auto;
+		padding: 2px;
+		margin-right: 10px;
+		outline: dashed;
+		outline-style:groove;
+		outline-color: red;
+		border-radius: 10px;
+		background-color: LightGrey;
+		text-align:center;
+		
+	}
+	
+	nav > ul > li > a
+	{
+		display: block;
+	}
+/* Row Styles */
+
+	div.newRow{
+		clear: both;  /* displays row only when both margins are clear of previously
+		floated column */
+		width: 100%;
+	}
+	div.grid-container{
+		
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 10px;
+		clear:both;
+	}
+
+
+/*footer styles */
+
+footer {
+	
+	background-color: LightGrey;
+	font-size: 0.9em;
+	padding: 10px 0px;
+	text-align: center;
+	outline: dashed;
+	outline-style:groove;
+	outline-color: red;
+	border-radius: 10px;
+	
+}
